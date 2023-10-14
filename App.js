@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, Button, Image } from "react-native";
+import Dashboard from "./screens/dashboard";
 
 export default function App() {
   return (
@@ -7,7 +8,8 @@ export default function App() {
       <View style={{ borderBottomWidth: 1, borderBottomColor: "black" }} />
       <Image source={require("./assets/world-host-distribution.jpeg")} />
       <Text style={styles.dummyText}>First Text</Text>
-      <Text style={styles.dummyText}>Text below last</Text>
+      <Text style={styles.dummyText}>Text </Text>
+      <Dashboard />
       <Button title="Tap Here" color="#22A360" />
     </View>
   );
