@@ -1,15 +1,15 @@
-import { StyleSheet, Text, View, Button, Image } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 import Dashboard from "./screens/dashboard";
+import Map from "./screens/map";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.greetingText}>HELLO BRUCE</Text>
       <View style={{ borderBottomWidth: 1, borderBottomColor: "black" }} />
-      <Image source={require("./assets/world-host-distribution.jpeg")} />
+      <Map />
       <Text style={styles.dummyText}>First Text</Text>
       <Text style={styles.dummyText}>Text </Text>
-      <Dashboard />
       <Button title="Tap Here" color="#22A360" />
     </View>
   );
