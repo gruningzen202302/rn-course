@@ -7,8 +7,8 @@ export default function App() {
       <View style={{ borderBottomWidth: 1, borderBottomColor: "black" }} />
       <Image source={require("./assets/world-host-distribution.jpeg")} />
       <Text style={styles.dummyText}>First Text</Text>
-      <Text style={styles.dummyText}>Text below</Text>
-      <Button title="Tap Here" />
+      <Text style={styles.dummyText}>Text below last</Text>
+      <Button title="Tap Here" color="#22A360" />
     </View>
   );
 }
