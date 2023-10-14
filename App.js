@@ -1,10 +1,11 @@
-import { StyleSheet, Text, View, Button } from "react-native";
+import { StyleSheet, Text, View, Button, Image } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.greetingText}>HELLO BRUCE</Text>
       <View style={{ borderBottomWidth: 1, borderBottomColor: "black" }} />
+      <Image source={require("./assets/world-host-distribution.jpeg")} />
       <Text style={styles.dummyText}>First Text</Text>
       <Text style={styles.dummyText}>Text below</Text>
       <Button title="Tap Here" />
