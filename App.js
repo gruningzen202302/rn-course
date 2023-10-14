@@ -4,7 +4,17 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Text component N1</Text>
-      <Text>Text component N2</Text> 
+      <Text 
+      style={{
+        backgroundColor:'silver',
+        borderRadius:10,
+        margin:50, 
+        borderWidth:3, 
+        borderColor:'silver', 
+        padding:16, 
+        color:'black'}}
+      >Text component N2
+      </Text> 
       <Button title='Tap Here'/>
     </View>
   )
